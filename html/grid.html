@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,15 +9,19 @@
     <link rel="stylesheet" href="/css/gridStyle.css">
 
     <style>
-        .container{
+        .container {
+            height: 100%;
             display: grid;
-            grid-template-columns: 100px auto 100px;
-            grid-gap: 5px;
-            
+            grid-template-columns: repeat(5, 90px);
+            grid-template-rows: repeat(2, 90px);
+            grid-gap: 3px;
+           
         }
+       
     </style>
 
 </head>
+
 <body>
     <div class="container">
         <div>1</div>
@@ -25,9 +30,12 @@
         <div>4</div>
         <div>5</div>
         <div>6</div>
-        
-        
+        <div class="seven">7</div>
+        <div>8</div>
+        <div>9</div>
+        <div>10</div>
     </div>
-    
+
 </body>
+
 </html>
